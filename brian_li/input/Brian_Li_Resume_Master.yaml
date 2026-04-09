@@ -1,0 +1,121 @@
+cv:
+  name: Brian Li
+  headline:
+  location:
+  email: brian.li.social@gmail.com
+  photo:
+  phone: +1 808 312 0549
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: brianlidesign
+    - network: GitHub
+      username: brianlidesign
+  custom_connections:
+  sections:
+    education:
+      - institution: California Polytechnic State University, San Luis Obispo
+        area: Computer Engineering
+        degree: |-
+
+          Bachelor of Science
+        date: Expected June 2028
+        start_date: 2024-09
+        end_date: 2028-05
+        location: San Luis Obispo, CA
+        summary:
+        highlights:
+          - Cal Poly Engineering Ambassador and Software Developer for
+            Hack4Impact Cal Poly
+    experience:
+      - company: Booz Allen Hamilton
+        position: Incoming Avionics System Engineer
+        start_date: 2026-06
+        end_date: 2026-08
+        location:
+      - company: Cal Poly Information Technology Services
+        position: Information Technology Assistant
+        date:
+        start_date: 2025-11
+        end_date: present
+        location: California
+        summary:
+        highlights:
+          - "Provided first-line IT support for 25,000 Cal Poly students,
+            faculty, and staff across 3 channels—phone, email, and in
+            person—resolving issues in 5 core service areas: Wi-Fi, account
+            access, Office 365, campus ID cards, and Tech Rentals."
+          - Resolved over 200 Jira service tickets while imaging, configuring,
+            and checking out Tech Rentals devices, translating technical issues
+            for non-technical users and improving equipment readiness and
+            service tracking.
+      - company: Digital Ready Hawaii
+        position: Instructional Technologist Intern
+        date:
+        start_date: 2024-06
+        end_date: 2024-09
+        location: Honolulu, HI
+        summary:
+        highlights:
+          - Trained 4 student apprentices in systematic troubleshooting and
+            customer support, turning personal debugging knowledge into
+            repeatable workflows to assist students effectively and explain
+            technical issues clearly.
+          - Resolved over 30 cross-platform hardware and software issues across
+            Windows, macOS, productivity software, browsers, and peripherals,
+            using structured diagnosis to isolate faults and verify fixes.
+    projects:
+      - name: "[Flip That Digit Game](https://github.com/BrianLiDesign/flip-that-digit)"
+        date:
+        start_date: 2025-06
+        end_date: 2025-09
+        highlights:
+          - Built an interactive embedded game on an OTTER MCU / Basys3 system
+            in Assembly and SystemVerilog that displayed target digits on a
+            seven-segment display and validated user input from 10 physical
+            switches in real time.
+          - Implemented randomized digit generation, streak/score tracking, LED
+            feedback, and reset behavior to create a responsive embedded device,
+            using RARS for memory setup and Vivado for hardware deployment and
+            testing.
+      - name: "[Operation Surf Website
+          Backend](https://github.com/hack4impact-calpoly/Operation-Surf)"
+        date:
+        start_date: 2025-09
+        end_date: present
+        location:
+        summary:
+        highlights:
+          - Built backend scheduling infrastructure for Operation Surf, a
+            nonprofit supporting military veterans' wellbeing, by implementing 1
+            Shift Mongoose schema and 3 Next.js API routes for creating,
+            listing, and retrieving shifts by ID.
+          - Contributed to backend and frontend sprint work for a nonprofit
+            scheduling platform, including shift scheduling, schema/API
+            planning, and shift display components; validated shipped API
+            functionality with Postman testing.
+      - name: Malama Maunalua
+        highlights:
+          - Delivered a playable Unity (C#) prototype for a children’s
+            environmental education game by leading a 3-person team, setting
+            milestones, delegating tasks, and running weekly check-ins using
+            GitHub and Nuclino.
+          - Implemented UI and interactive behaviors in Unity (C#) by designing
+            interfaces and scripting interactions.
+        summary: Lead Project Manager & Front-end Developer
+        start_date: 2023-08
+        end_date: 2024-05
+    skills:
+      - label: Hardware
+        details:
+          SystemVerilog, VHDL, Assembly (ARM), Xilinx, Basys3 FPGA,  CrazyFlie,
+          Raspberry Pi, Vivado, LTspice
+      - label: Software Development
+        details: C, C++, Java, Python, Next.js, MongoDB, JavaScript
+      - label: Tools
+        details: Git/GitHub, VirtualBox, Docker, VS Code, Vivado, Jira
+
+design:
+  theme: engineeringresumes
+  page:
+    show_top_note: false
