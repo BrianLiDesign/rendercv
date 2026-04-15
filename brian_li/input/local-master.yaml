@@ -25,11 +25,20 @@ cv:
         location: San Luis Obispo, CA
         summary:
         highlights:
-          - Cal Poly Engineering Ambassador and Software Developer for
-            Hack4Impact Cal Poly
+          - "Cal Poly Engineering Ambassador and Software Developer for
+            Hack4Impact Cal Poly"
+      - institution: Punahou School
+        area: ""
+        degree: High School Diploma
+        date: June 2024
+        start_date: 2020-08
+        end_date: 2024-05
+        location: Honolulu, HI
+        summary:
+        highlights:
     experience:
       - company: Booz Allen Hamilton
-        position: Incoming Avionics System Engineer
+        position: Incoming Systems Engineer
         start_date: 2026-06
         end_date: 2026-08
         location:
@@ -111,7 +120,7 @@ cv:
           SystemVerilog, VHDL, Assembly (ARM), Xilinx, Basys3 FPGA,  CrazyFlie,
           Raspberry Pi, Vivado, LTspice
       - label: Software Development
-        details: C, C++, Java, Python, Next.js, MongoDB, JavaScript
+        details: C, C++, Java, Python, Next.js, MongoDB, JavaScript, SQL
       - label: Tools
         details: Git/GitHub, VirtualBox, Docker, VS Code, Vivado, Jira
 
@@ -119,3 +128,15 @@ design:
   theme: engineeringresumes
   page:
     show_top_note: false
+  typography:
+    bold:
+      name: true
+      section_titles: false
+    small_caps:
+      section_titles: true
+    font_size:
+      body: 10pt
+      name: 20pt
+
+locale:
+  language: english
