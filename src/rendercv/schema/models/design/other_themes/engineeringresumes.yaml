@@ -2,7 +2,12 @@
 design:
   theme: engineeringresumes
   page:
+    top_margin: "0.6in"
+    bottom_margin: "0.6in"
+    left_margin: "0.7in"
+    right_margin: "0.7in"
     show_footer: false
+    show_top_note: false
   typography:
     font_family:
       body: XCharter
@@ -11,10 +16,14 @@ design:
       connections: XCharter
       section_titles: XCharter
     font_size:
-      name: "25pt"
+      body: "10pt"
+      name: "22pt"
       section_titles: "1.2em"
+    small_caps:
+      section_titles: true
     bold:
-      name: false
+      name: true
+      section_titles: false
   header:
     connections:
       separator: "|"
@@ -34,7 +43,7 @@ design:
     space_above: "0.5cm"
     space_below: "0.3cm"
   sections:
-    space_between_regular_entries: "0.42cm"
+    space_between_regular_entries: "0.22cm"
     space_between_text_based_entries: "0.15cm"
     show_time_spans_in: []
   entries:
